@@ -5,6 +5,10 @@
     export let open: boolean = false;
     export let allowedSpellSlots: number;
     export let knownSpells: Spell[][];
+
+
+    let pickedSpells: string[][];
+
 </script>
 <style>
 </style>
@@ -18,7 +22,7 @@
 >
     <Tabs>
         {#each knownSpells as _, k}
-        <Tab label="{k}"/>
+        <Tab label={k.toString(2)}/>
         {/each}
     </Tabs>
 

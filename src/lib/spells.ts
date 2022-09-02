@@ -1,4 +1,3 @@
-/* what */
 export interface Spell {
     school: string;
     components: string;
