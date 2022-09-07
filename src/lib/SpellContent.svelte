@@ -1,17 +1,20 @@
 <script lang="ts">
-    export let school: string;
-    export let components: string;
-    export let range: string;
-    export let duration: string;
-    export let description: string;
-    export let isEvil = false;
+    import type { Spell } from "./spells";
+    export let spell: Spell;
 </script>
 
-<b>School:</b> {school}<br/>
-<b>Components:</b> {components}<br/>
-<b>Range:</b> {range}<br/>
-<b>Duration:</b> {duration}<br/>
-{#if isEvil}
-<b>Evil: </b> {isEvil}<br/>
+<style>
+    h6 {
+        display: inline;
+    }
+</style>
+
+
+<h6>School:</h6> {spell.school}<br/>
+<h6>Components:</h6> {spell.components}<br/>
+<h6>Range:</h6> {spell.range}<br/>
+<h6>Duration:</h6> {spell.duration}<br/>
+{#if spell.isEvil}
+<h6>Evil:</h6> {spell.isEvil}<br/>
 {/if}
-<b>Description:</b> {description}
+<h6>Description:</h6> {spell.description}

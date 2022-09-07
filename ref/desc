@@ -6,7 +6,7 @@
     A creature subjected to this spell feels a spiking fever accompanied by vertigo and a phantasmagoric 
     confusion of the senses. The target first gets a Will save to recognize the dream as unreal. If that save fails,
     the creature becomes exhausted while the spell lasts. A successful Fortitude save lessens the condition to fatigued.
-    <br/><br/>
+
     Regardless of the outcome of the Fortitude save, the subject has difficulty focusing its mind on spellcasting. Each time it attempts to cast, concentrate on, or direct a spell, it must first succeed on a Concentration check 
     (DC equal to this spell's save DC + the level of the spell being used). When this spell ends (whether because
     its duration ends, you dismiss it, or it is dispelled), the subject is confused for 1 round afterward.
